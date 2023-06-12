@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한성특수밸브</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://fatlinesofcode.github.io/jquery.smoothwheel/src/jquery.smoothwheel.js"></script>
+    <script src="https://kit.fontawesome.com/6a7f0abbbd.js" crossorigin="anonymous"></script>
+    <meta property="og:title" content="한성특수밸브" />
+    <meta property="og:url" content="https://whitehutch.github.io/hansung/" />
+    <meta property="og:image" content="https://thumbs2.imgbox.com/98/b4/Mu1xKo6X_t.png" />
+    <meta property="og:description" content="볼밸브 외 밸브수리 전문업체 한성특수밸브입니다. 고객님의 만족을 위하여 최선을 다하겠습니다." />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+    <link rel="icon" href="images/favicon.ico">
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"> </script>
+    <script src="js/flipsnap.js"></script>
+    <script type="text/javascript">
+        function check() {
+            alert(document.getElementById("email").value);
+            var email = document.getElementById("email").value;
+            var exptext = /^[A-Za-z0-9_\.\-]+@[A-Za-z0-9\-]+\.[A-Za-z0-9\-]+/;
+            if (exptext.test(email) == false) {
+                //이메일 형식이 알파벳+숫자@알파벳+숫자.알파벳+숫자 형식이 아닐경우			
+                alert("이 메일형식이 올바르지 않습니다.");
+                document.addjoin.email.focus();
+                return false;
+            }
+        }
+    </script>
+    <script>
+      $(document).ready(function() {
+        $('.category li').hover(
+          function() {
+            $(this).find('.sub_cate').slideDown(500);
+          },
+          function() {
+            $(this).find('.sub_cate').slideUp(500);
+          }
+        );
+      });
+    </script>
+    <script>
+        $(document).ready(function () {
+                $('.check_ok button').click(function () {
+                    $('#pop').fadeIn(1500);
+                });
+
+                $('.item_btn button').click(function () {
+                    $('#pop').fadeOut(1500);
+                });
+            });
+    </script>
+    <style>
+        .category>li:nth-child(4)>a {
+            color:#4284af;
+            font-weight:600;
+            background-color:#fff;
+            transition: 0.3s;
+        }
+        .container_wrap {
+            background-image:url('../images/box4_bg.png');
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div class="header_logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+                <h2>special valve</h2>
+                <h1>한성특수밸브</h1>
+            </a>
+        </div>
+        <div class="header_wrap">
+            <div class="cate_wrap">
+                <ul class="category">
+                    <li>
+                        <a href="intro.html">회사소개</a>
+                        <ul class="sub_cate">
+                            <li><a href="about.html">회사연혁</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="list.html">수리공정</a>
+                        <ul class="sub_cate">
+                            <li><a href="ballvalve.html">볼밸브</a></li>
+                            <li><a href="jacketballvalve.html">자켓볼밸브</a></li>
+                            <li><a href="globevalve.html">게이트·글로브밸브</a></li>
+                            <li><a href="etc.html">기타 밸브</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">생산제품</a></li>
+                    <li><a href="contact.html">견적문의</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="pop">
+        <div class="pop_wrap">
+            <div class="viewport">
+                <div class="flipsnap">
+                    <div class="item">
+                        <div class="item_wrap">
+                            <h1>개 인 정 보 처 리 방 침</h1>
+                            <hr>
+                            <div class="item_text">
+                                <span>한성특수밸브</span>는<br>
+                                개인정보 보호법 제30조에 따라 정보주체<span>(고객)</span>의 개인정보를 보호하고<br>
+                                이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여<br>
+                                다음과 같이 개인정보 처리지침을 수립 및 공개합니다.
+                            </div>
+                            <div class="item_text">
+                                <h2>1. <span>개인정보의 처리목적</span></h2>
+                                <p>
+                                    한성특수밸브는 다음의 목적을 위하여 개인정보를 처리하고 있으며,<br>
+                                    다음의 목적 이외의 용도로는 이용하지 않습니다.<br>
+                                </p>
+                                <p>
+                                    - 고객에 대한 서비스 제공에 따른 본인 식별,인증
+                                </p>
+                            </div>
+                            <div class="item_text">
+                                <h2>2. <span>개인정보의 처리 및 보유기간</span></h2>
+                                <p>
+                                    한성특수밸브는 정보주체로부터 개인정보를 수집할 때<br>
+                                    동의 받은 개인정보를 보유, 처리하며, 구체적인 개인정보 처리 및 보유 기간은<br>
+                                    온라인고객문의에 대한 답변이 완료되는 때로 합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_wrap">
+                            <div class="item_text">
+                                <h2>3. <span>개인정보의 제3자 제공</span></h2>
+                                <p>
+                                    한성특수밸브는 정보주체의 별도 동의, 볍률의 특별한 규정 등<br>
+                                    개인정보 보호법 제17조에 해당하는 경우 외에는 개인정보를 제3자에게 제공하지 않습니다.
+                                </p>
+                            </div>
+                            <div class="item_text">
+                                <h2>4. <span>정보주체와 법정대리인의 권리·의무 및 행사방법</span></h2>
+                                <p>
+                                    정보주체는 한성특수밸브에 대해 언제든지 다음 각 호의<br>
+                                    개인정보 보호 관련 권리를 행사할 수 있습니다.
+                                </p>
+                                <ul>
+                                    <li>개인정보 열람요구</li>
+                                    <li>개인정보에 오류 등이 있을 경우 정정 요구</li>
+                                    <li>삭제요구</li>
+                                    <li>처리정지 요구</li>
+                                </ul>
+                            </div>
+                            <div class="item_text">
+                                <h2>5. <span>처리하는 개인정보 항목</span></h2>
+                                <p>
+                                    한성특수밸브는 다음의 개인정보 항목을 처리하고 있습니다.
+                                </p>
+                                <p>
+                                    - 성명, 전화번호, 휴대전화번호, 이메일주소, 회사 이름, 직책 등의 회사정보
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_wrap">
+                            <div class="item_text">
+                                <h2>6. <span>개인정보의 파기</span></h2>
+                                <p>
+                                    한성특수밸브는 개인정보 보유기간의 경과, 처리목적 달성 등<br>
+                                    불필요하게 되었을 때에는 지체 없이 해당 개인정보를 파기합니다.
+                                </p>
+                                <p>
+                                    한성특수밸브는 다음의 방법으로 개인정보를 파기합니다.
+                                </p>
+                                <ul>
+                                    <li><span>전자적 파일 :</span> <span>파일 삭제 및 디스크 등 저장매체 포맷</span></li>
+                                    <li><span>수기(手記) 문서 :</span> <span>분쇄하거나 소각</span></li>
+                                </ul>
+                            </div>
+                            <div class="item_text">
+                                <h2>7. <span>개인정보의 안전성 확보조치</span></h2>
+                                <p>
+                                    한성특수밸브는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 취하고 있습니다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        <span>관리적 조치 :</span> 내부관리계획 수립․시행, 직원․종업원 등에 대한 정기적 교육
+                                    </li>
+                                    <li>
+                                        <span>기술적 조치 :</span> 개인정보처리시스템<span>(또는 개인정보가 저장된 컴퓨터)</span>의 비밀번호 설정 등<br>
+                                        <span>&nbsp;</span>접근권한 관리, 백신소프트웨어 등 보안프로그램 설치,<br>
+                                        <span>&nbsp;</span>개인정보가 저장된 파일의 암호화
+                                    </li>
+                                    <li><span>물리적 조치 :</span> 개인정보가 저장․보관된 장소의 시건, 출입통제 등</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_wrap">
+                            <div class="item_text">
+                                <h2>8. <span>개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항</span></h2>
+                                <p>
+                                    한성특수밸브는 이용자에게 개별적인 맞춤서비스를 제공하기 위해 이용정보를 저장하고<br>
+                                    수시로 불러오는 ‘쿠키<span>(cookie)</span>’를 사용합니다.
+                                </p>
+                                <p>
+                                    쿠키는 웹사이트를 운영하는데 이용되는 서버<span>(http)</span>가 이용자의 컴퓨터 브라우저에게<br>
+                                    보내는 소량의 정보이며 이용자들의 PC 컴퓨터내의 하드디스크에 저장되기도 합니다.
+                                </p>
+                                <ul>
+                                    <li>
+                                        쿠키의 사용목적: 이용자가 방문한 각 서비스와 웹 사이트들에 대한 방문 및 이용형태,<br>
+                                        <span></span>인기 검색어, 보안접속 여부, 등을 파악하여 이용자에게 최적화된 정보 제공을 위해<br>
+                                        <span></span>사용됩니다.
+                                    </li>
+                                    <li>
+                                        쿠키의 설치∙운영 및 거부 : 웹브라우저 상단의 도구 > 인터넷 옵션 > 개인정보 메뉴의<br>
+                                        <span></span>옵션 설정을 통해 쿠키 저장을 거부 할 수 있습니다.
+                                    </li>
+                                    <li>
+                                        쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_wrap">
+                            <div class="item_text">
+                                <h2>9. <span>개인정보 보호책임자</span></h2>
+                                <p>
+                                    한성특수밸브는 개인정보 처리에 관한 업무를 총괄해서 책임지고,<br>
+                                    개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제를 처리하기 위하여<br>
+                                    아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+                                </p>
+                                <ul>
+                                    <li><span>대표:</span>양 희 조<span>hansungvv@nate.com</span></li>
+                                    <li><span>대표번호:</span>051-819-4231</li>
+                                    <li><span>팩스:</span>051-819-4233</li>
+                                </ul>
+                            </div>
+                            <div class="item_text">
+                                <h2>10. <span>개인정보 처리방침 변경</span></h2>
+                                <p>
+                                    이 개인정보 처리방침은 <span>2020. 8. 25.</span>부터 적용됩니다.
+                                </p>
+                            </div>
+                            <div class="item_btn">
+                                <button>확인</button>
+                                <p>
+                                    한성특수밸브
+                                    <span>대표 양희조</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="controls">
+                <button class="prev" disabled><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+            </p>
+            <script>
+                var flipsnap = Flipsnap('.flipsnap');
+                var $next = $('.next').click(function () {
+                    flipsnap.toNext();
+                });
+                var $prev = $('.prev').click(function () {
+                    flipsnap.toPrev();
+                });
+                flipsnap.element.addEventListener('fspointmove', function () {
+                    $next.attr('disabled', !flipsnap.hasNext());
+                    $prev.attr('disabled', !flipsnap.hasPrev());
+                }, false);
+            </script>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="container_wrap">
+            <div class="contact">
+                <h1>견적문의</h1>
+                <hr>
+                <form action="https://formspree.io/f/xvonepaq" method="POST">
+                    <ul class="contact_form">
+                        <li>
+                            <div class="check_ok">
+                                <button>개인정보처리방침보기</button>
+                                <input type="checkbox" name="agree" id="agree" required>
+                                <label for="agree"><em></em>본 개인정보 처리방침에 동의합니다.<span>*</span></label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="name">
+                                성함<span>*</span><br>
+                                <input type="text" name="id" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="tel">
+                                전화번호<span>*</span><br>
+                                <input type="text" name="number" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="mail">
+                                이메일<span>*</span><br>
+                                <input type="text" name="email" id="email" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="co">
+                                직장<span>*</span><br>
+                                <input type="text" name="company" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="co_job">
+                                직책<span>*</span><br>
+                                <input type="text" name="job" required>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="contact_form">
+                        <li>
+                            <div></div>
+                        </li>
+                        <li>
+                            <div class="co_job">
+                                제목<span>*</span><br>
+                                <input type="text" name="title" required>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="co_job">
+                                내용<span>*</span><br>
+                                <textarea name="text" id="" required></textarea>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="clear"></div>
+                    <button type="submit">보내기</button>
+                </form>
+            </div>
+            <div class="map">
+                <div class="map_wrap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3262.010411090174!2d129.05920765052457!3d35.15636110274254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3568eb63f8de037b%3A0x59918f47967d286f!2z7ZWc7ISx7Yq57IiY67C467iM!5e0!3m2!1sko!2skr!4v1686565078643!5m2!1sko!2skr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="map_text">
+                    <h3>오시는 길</h3>
+                    <p>
+                        부산광역시 부산진구<br>
+                        ​전포 1동 681-2 테크노프라자 A211<br>
+                        <span>hansungvv@nate.com</span><br>
+                        대 표 번 호 : 051-819-4231<br>
+                        팩 스 : 051-819-4233
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer_wrap">
+            <div class="footer_logo">
+                <img src="images/logo_footer.png" alt="">
+            </div>
+            <div class="footer_tool">
+                <ul>
+                    <li>한성특수밸브<a href="#">hansungvv@nate.com</a></li>
+                    <li><span class="ad">부산광역시 부산진구 전포1동 681-2 테크노프라자 A211</span></li>
+                    <li><span class="tel">대표번호 : 051-819-4231</span><span class="fax">팩스 : 051-819-4233</span></li>
+                    <li>ⓒ 1994. HANSUNG SPECIAL VALVE All rights reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

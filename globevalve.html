@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한성특수밸브</title>
+    <link rel="stylesheet" href="./css/globe.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://fatlinesofcode.github.io/jquery.smoothwheel/src/jquery.smoothwheel.js"></script>
+    <script src="https://kit.fontawesome.com/6a7f0abbbd.js" crossorigin="anonymous"></script>
+    <meta property="og:title" content="한성특수밸브" />
+    <meta property="og:url" content="https://whitehutch.github.io/hansung/" />
+    <meta property="og:image" content="https://thumbs2.imgbox.com/98/b4/Mu1xKo6X_t.png" />
+    <meta property="og:description" content="볼밸브 외 밸브수리 전문업체 한성특수밸브입니다. 고객님의 만족을 위하여 최선을 다하겠습니다." />
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+    <link rel="icon" href="images/favicon.ico">
+    <script src="js/flipsnap.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('.category li').hover(
+          function() {
+            $(this).find('.sub_cate').slideDown(500);
+          },
+          function() {
+            $(this).find('.sub_cate').slideUp(500);
+          }
+        );
+      });
+    </script>
+    <style>
+        .category>li:nth-child(2)>a {
+            color:#4284af;
+            font-weight:600;
+            background-color:#fff;
+            transition: 0.3s;
+        }
+        .category>li:nth-child(2)>.sub_cate>li:nth-child(3)>a {
+            color:#fff;
+            font-weight:500;
+            background-color:#3c7ba2;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <div class="header_logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+                <h2>special valve</h2>
+                <h1>한성특수밸브</h1>
+            </a>
+        </div>
+        <div class="header_wrap">
+            <div class="cate_wrap">
+                <ul class="category">
+                    <li>
+                        <a href="intro.html">회사소개</a>
+                        <ul class="sub_cate">
+                            <li><a href="about.html">회사연혁</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="list.html">수리공정</a>
+                        <ul class="sub_cate">
+                            <li><a href="ballvalve.html">볼밸브</a></li>
+                            <li><a href="jacketballvalve.html">자켓볼밸브</a></li>
+                            <li><a href="globevalve.html">게이트·글로브밸브</a></li>
+                            <li><a href="etc.html">기타 밸브</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="product.html">생산제품</a></li>
+                    <li><a href="contact.html">견적문의</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="container_wrap">
+            <div class="box5">
+                <h1>게이트·글로브밸브</h1>
+                <hr>
+                <h2>수리과정</h2>
+                <div class="process">
+                    <ul>
+                        <li>
+                            <h3>1. 수리 밸브 반출</h3>
+                            <div class="viewport" id="first">
+                                <div class="flipsnap">
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                            <div class="pointer" id="first">
+                                <span class="current"></span>
+                                <span></span>
+                            </div>
+                            <script>
+                                var $pointer1 = $('#first span');
+                                var flipsnap1 = Flipsnap('#first .flipsnap');
+                                flipsnap1.element.addEventListener('fspointmove', function () {
+                                    $pointer1.filter('.current').removeClass('current');
+                                    $pointer1.eq(flipsnap1.currentPoint).addClass('current');
+                                }, false);
+                            </script>
+                        </li>
+                        <li>
+                            <h3>2. 밸브 분해</h3>
+                            <div class="viewport" id="second">
+                                <div class="flipsnap">
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                            <div class="pointer" id="second">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <script>
+                                var $pointer2 = $('#second span');
+                                var flipsnap2 = Flipsnap('#second .flipsnap');
+                                flipsnap2.element.addEventListener('fspointmove', function () {
+                                    $pointer2.filter('.current').removeClass('current');
+                                    $pointer2.eq(flipsnap2.currentPoint).addClass('current');
+                                }, false);
+                            </script>
+                        </li>
+                        <li>
+                            <h3>3. 밸브 가공</h3>
+                            <div class="viewport" id="third">
+                                <div class="flipsnap">
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                            <div class="pointer" id="third">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <script>
+                                var $pointer3 = $('#third span');
+                                var flipsnap3 = Flipsnap('#third .flipsnap');
+                                flipsnap3.element.addEventListener('fspointmove', function () {
+                                    $pointer3.filter('.current').removeClass('current');
+                                    $pointer3.eq(flipsnap3.currentPoint).addClass('current');
+                                }, false);
+                            </script>
+                        </li>
+                        <li>
+                            <h3>4. 조립 및 수압테스트</h3>
+                            <div class="viewport" id="fourth">
+                                <div class="flipsnap">
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                    <div class="item"></div>
+                                </div>
+                            </div>
+                            <div class="pointer" id="fourth">
+                                <span class="current"></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <script>
+                                var $pointer4 = $('#fourth span');
+                                var flipsnap4 = Flipsnap('#fourth .flipsnap');
+                                flipsnap4.element.addEventListener('fspointmove', function () {
+                                    $pointer4.filter('.current').removeClass('current');
+                                    $pointer4.eq(flipsnap4.currentPoint).addClass('current');
+                                }, false);
+                            </script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer_wrap">
+            <div class="footer_logo">
+                <img src="images/logo_footer.png" alt="">
+            </div>
+            <div class="footer_tool">
+                <ul>
+                    <li>한성특수밸브<a href="#">hansungvv@nate.com</a></li>
+                    <li><span class="ad">부산광역시 부산진구 전포1동 681-2 테크노프라자 A211</span></li>
+                    <li><span class="tel">대표번호 : 051-819-4231</span><span class="fax">팩스 : 051-819-4233</span></li>
+                    <li>ⓒ 1994. HANSUNG SPECIAL VALVE All rights reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
