@@ -16,6 +16,13 @@
     <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
     <link rel="icon" href="images/favicon.ico">
     <script>
+        $(document).ready(function () {
+            if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                window.location.href = "https://hansungvalve.co.kr/m/about.html";
+            }
+        });
+    </script>
+    <script>
       $(document).ready(function() {
         $('.category li').hover(
           function() {
